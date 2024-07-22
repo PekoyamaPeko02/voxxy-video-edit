@@ -1,0 +1,29 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+#default-search {
+    
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+.iconsearch {
+    position: absolute;
+    left: 5px;
+    pointer-events: none;
+    color: gray;
+}
