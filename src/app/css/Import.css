@@ -1,7 +1,8 @@
-.search-container {
+.importframe {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .search {
@@ -10,11 +11,14 @@
     align-items: center;
     margin-top: 25px;
     
+    
 }
 
 #default-search {
-    
-    padding: 5px;
+    /* padding: 5px; */
+    padding-left: 50px;
+    padding-right: 100px;
+    height: 30px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -26,4 +30,14 @@
     left: 5px;
     pointer-events: none;
     color: gray;
+    
+}
+
+.iconadd {
+    color: #6771F0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
