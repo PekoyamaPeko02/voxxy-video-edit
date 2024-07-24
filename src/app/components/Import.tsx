@@ -45,6 +45,7 @@ const Import = () => {
     <div ref={sidebarRef} className="import-tool" style={{ width }}>
       <h2 className="mt-2 text-lg font-semibold text-gray-800">Import Tool</h2>
       <p className="mt-1 text-sm text-gray-600">Here you can import your files...</p>
+      <span>Re แดด</span>
       <div 
         className="resize-handle" 
         onMouseDown={startResizing} 
