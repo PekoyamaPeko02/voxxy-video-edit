@@ -1,0 +1,17 @@
+.import-tool {
+    position: relative;
+    background: #FFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden; 
+  }
+  
+  .resize-handle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    cursor: nwse-resize; 
+  }
+  

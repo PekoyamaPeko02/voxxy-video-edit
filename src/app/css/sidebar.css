@@ -52,11 +52,12 @@
 
 .tool-area {
   position: absolute;
-  width: 20%;
-  height: 60%;
   left: 95px;
   top: 65px;
+  height: 60%;
   background: #FFFFFF;
   border-radius: 0px;
   box-shadow: 15px 15px 40px -20px rgba(0,0,0,0.25);
+  transition: width 0.5s ease; 
 }
+
