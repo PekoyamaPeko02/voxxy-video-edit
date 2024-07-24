@@ -1,17 +1,15 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { IconDownload, IconTemplate, IconPhoto, IconPhotoVideo, IconLetterT, IconMusic, IconTransitionRight } from '@tabler/icons-react';
 import '../css/Sidebar.css';
-import Import from '../components/Import'; 
+import Import from '../components/Import';
 import Template from '../components/Template';
 import Image from '../components/Image';
 import Effect from '../components/Effect';
 import Text from '../components/Text';
 import Audio from '../components/Audio';
 import Transition from '../components/Transition';
-
-
 
 const Sidebar: React.FC<{ onSelect: (component: string) => void }> = ({ onSelect }) => {
   const [activeIcon, setActiveIcon] = useState<string | null>(null);
@@ -77,7 +75,7 @@ const Sidebar: React.FC<{ onSelect: (component: string) => void }> = ({ onSelect
       </div>
 
       {activeIcon && (
-        <div className="tool-area">
+        <div className="tool-area" >
           {activeIcon === 'import' && <Import />}
           {activeIcon === 'template' && <Template />}
           {activeIcon === 'image' && <Image />}
