@@ -1,11 +1,8 @@
 .import-tool {
-  position: relative;
   background: #FFF;
-  overflow: hidden;
   padding: 20px;
   max-width: 800px;
   min-width: 100px;
-  height: 60%;
 }
 
 .resize-handle {
